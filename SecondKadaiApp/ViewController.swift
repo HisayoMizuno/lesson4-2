@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
         
     }
+    //fistTextデータ
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
         resultViewController.nextLabel = fstTextbox.text!
